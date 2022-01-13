@@ -19,12 +19,6 @@ terraform init
 terraform plan
 terraform apply -auto-approve
 
-#deoploying apigateway
-cd api_gateway
-terraform init
-terraform plan
-terraform apply -auto-approve
-
 #deploying lambda functions from container image
 cd lambda
 terraform init
